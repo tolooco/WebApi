@@ -13,7 +13,5 @@ namespace WebApi_01.Models
 
         public bool IsComplete { get; set; }
 
-        public string HelloUser { get; set; }
-
     }
 }
