@@ -93,6 +93,8 @@ namespace WebApi_01.Controllers
                 return NotFound();
             }
 
+            TodoItems.Remove(id);
+
             return new NoContentResult();
         }
     }
